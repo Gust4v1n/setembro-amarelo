@@ -19,30 +19,44 @@ div{
     font-size: large;
     border-radius: 16px;
 }
+
 .titletext{
     text-align: center;
     color: #af6e31;
     font-family: 'Elowen', sans-serif;
     font-size: 300%;
 }
+
 .minidiv-container{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    background-color: transparent;
-    box-shadow: 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    box-shadow: unset;
+    padding: unset;
+    background-color: unset;
 }
+
 .minidiv{
     background-position: center;
     color: white;
-    justify-items: center;
+    padding: 40px 10px;
+    border-radius: 15px;
     text-align: center;
-    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px black;
     background-color: #af6e31;
-    box-shadow: 0 0 0;
-    font-size: 100%;
+    transition: transform 0.2s ease-in-out;
+    
+}
+
+.minidiv:hover{
+    transform: scale(1.05);
 }
 
 .mindivicons{
-    height: 5vw;
+    height: 50px;
 }
