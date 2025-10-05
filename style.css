@@ -15,6 +15,7 @@ body{
 }
 
 .divmaiorzin{
+    position: relative;
     margin: 0 auto;
     margin-bottom: 30px;
     background-color: #fefcfb;
@@ -24,6 +25,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
     border-radius: 16px;
+    text-align: center;
 }
 
 .divmaiorzin2{
@@ -100,25 +102,26 @@ body{
     font-size: 13px;
 }
 
-.girasol-floatinsanamenteflotado{
+.girasol-floatinsanamenteflotado {
     position: absolute;
-    width: 8%;
-    top: 450px;
-    right: 50px;
+    width: 60px;
+    top: -20px;
+    right: -20px;
 }
+
 
 .girasol-floatinsanamenteflotado2{
     position: absolute;
-    width: 8%;
-    top: 720px;
-    right: 50px;
+    width: 60px;
+    top: -40px;
+    right: -20px;
 }
 
 .girasol-floatinsanamenteflotado3{
     position: absolute;
-    width: 8%;
-    top: 1410px;
-    left: 50px;
+    width: 60px;
+    top: -20px;
+    right: -20px;
 }
 
 .ultimo-container {
@@ -137,3 +140,4 @@ body{
     width: 30%;
     height: 20%;
 }
+
